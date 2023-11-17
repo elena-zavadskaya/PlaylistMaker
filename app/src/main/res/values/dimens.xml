@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_width">"match_parent"</dimen>
+    <dimen name="button_height">0dp</dimen>
+    <dimen name="button_marginTop">16dp</dimen>
+    <dimen name="icon_padding">8dp</dimen>
+    <dimen name="button_size">24dp</dimen>
+    <dimen name="text_margin">12dp</dimen>
+    <dimen name="text_marginTop">10dp</dimen>
+</resources>
