@@ -9,7 +9,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="56dp"
+        android:layout_height="52dp"
         android:orientation="horizontal">
 
         <Button
@@ -35,9 +35,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:orientation="vertical"
-        android:layout_weight="1">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -47,11 +46,11 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:paddingVertical="21dp"
+                android:paddingVertical="@dimen/settings_paddingVertical"
                 android:layout_weight="1"
                 android:text="@string/dark_theme"
                 android:textColor="@color/black"
-                android:textSize="19sp"
+                android:textSize="@dimen/textSize"
                 android:layout_marginStart="@dimen/text_margin"
                 android:layout_marginTop="@dimen/text_marginTop"
                 android:layout_marginBottom="@dimen/text_margin"/>
@@ -64,7 +63,7 @@
                 app:icon="@drawable/control"
                 app:iconGravity="textStart"
                 app:iconTint="@color/dark_gray"
-                android:layout_margin="12dp"
+                android:layout_margin="@dimen/settings_image_margin"
                 android:layout_gravity="center"
                 android:alpha="0.6"
                 tools:ignore="UseSwitchCompatOrMaterialXml"/>
@@ -79,21 +78,21 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:paddingVertical="21dp"
+                android:paddingVertical="@dimen/settings_paddingVertical"
                 android:layout_weight="1"
                 android:text="@string/share"
                 android:textColor="@color/black"
-                android:textSize="19sp"
+                android:textSize="@dimen/textSize"
                 android:layout_marginStart="@dimen/text_margin"
                 android:layout_marginTop="@dimen/text_marginTop"
                 android:layout_marginBottom="@dimen/text_margin"/>
 
             <ImageView
-                android:layout_width="45dp"
-                android:layout_height="28dp"
+                android:layout_width="@dimen/settings_image_width"
+                android:layout_height="@dimen/settings_image_height"
                 android:src="@drawable/share"
                 app:iconTint="@color/dark_gray"
-                android:layout_margin="12dp"
+                android:layout_margin="@dimen/settings_image_margin"
                 android:layout_gravity="center"/>
         </LinearLayout>
 
@@ -106,21 +105,21 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:paddingVertical="21dp"
+                android:paddingVertical="@dimen/settings_paddingVertical"
                 android:layout_weight="1"
                 android:text="@string/write_to_support"
                 android:textColor="@color/black"
-                android:textSize="19sp"
+                android:textSize="@dimen/textSize"
                 android:layout_marginStart="@dimen/text_margin"
                 android:layout_marginTop="@dimen/text_marginTop"
                 android:layout_marginBottom="@dimen/text_margin"/>
 
             <ImageView
-                android:layout_width="45dp"
-                android:layout_height="28dp"
+                android:layout_width="@dimen/settings_image_width"
+                android:layout_height="@dimen/settings_image_height"
                 android:src="@drawable/support"
                 app:iconTint="@color/dark_gray"
-                android:layout_margin="12dp"
+                android:layout_margin="@dimen/settings_image_margin"
                 android:layout_gravity="center"/>
         </LinearLayout>
 
@@ -133,28 +132,22 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:paddingVertical="21dp"
+                android:paddingVertical="@dimen/settings_paddingVertical"
                 android:layout_weight="1"
                 android:text="@string/terms_of_use"
                 android:textColor="@color/black"
-                android:textSize="19sp"
+                android:textSize="@dimen/textSize"
                 android:layout_marginStart="@dimen/text_margin"
                 android:layout_marginTop="@dimen/text_marginTop"
                 android:layout_marginBottom="@dimen/text_margin"/>
 
             <ImageView
-                android:layout_width="45dp"
-                android:layout_height="28dp"
+                android:layout_width="@dimen/settings_image_width"
+                android:layout_height="@dimen/settings_image_height"
                 android:src="@drawable/arrow"
                 app:iconTint="@color/dark_gray"
-                android:layout_margin="12dp"
+                android:layout_margin="@dimen/settings_image_margin"
                 android:layout_gravity="center"/>
         </LinearLayout>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:orientation="vertical"
-        android:layout_weight="1">
     </LinearLayout>
 </LinearLayout>
