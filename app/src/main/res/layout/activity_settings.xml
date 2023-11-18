@@ -12,22 +12,24 @@
         android:layout_height="52dp"
         android:orientation="horizontal">
 
-        <Button
+        <ImageView
             android:id="@+id/back_button"
-            android:layout_width="@dimen/button_size"
-            android:layout_height="@dimen/button_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:backgroundTint="@color/white"
-            app:icon="@drawable/back"
-            app:iconGravity="textStart"
+            android:src="@drawable/back"
             app:iconTint="@color/black"
-            android:layout_margin="12dp"/>
+            app:iconGravity="textStart"
+            android:layout_margin="@dimen/settings_image_margin"
+            android:layout_gravity="center"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/button_settings"
-            android:textColor="@color/black"
-            android:textSize="26sp"
+            android:textFontWeight="500"
+            android:textColor="@color/almost_black"
+            android:textSize="22sp"
             android:layout_marginStart="@dimen/text_margin"
             android:layout_marginTop="@dimen/text_marginTop"
             android:layout_marginBottom="@dimen/text_margin"/>
