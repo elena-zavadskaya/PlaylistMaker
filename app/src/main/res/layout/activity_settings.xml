@@ -74,6 +74,7 @@
                 android:text="@string/share"/>
 
             <ImageView
+                android:id="@+id/share_button"
                 android:layout_width="@dimen/settings_image_width"
                 android:layout_height="@dimen/settings_image_height"
                 android:src="@drawable/share"
@@ -94,6 +95,7 @@
                 android:text="@string/write_to_support"/>
 
             <ImageView
+                android:id="@+id/support_button"
                 android:layout_width="@dimen/settings_image_width"
                 android:layout_height="@dimen/settings_image_height"
                 android:src="@drawable/support"
@@ -114,6 +116,7 @@
                 android:text="@string/terms_of_use"/>
 
             <ImageView
+                android:id="@+id/terms_of_use_button"
                 android:layout_width="@dimen/settings_image_width"
                 android:layout_height="@dimen/settings_image_height"
                 android:src="@drawable/arrow"
