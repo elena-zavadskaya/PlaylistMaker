@@ -19,7 +19,7 @@ class SearchActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_search)
 
-        //val linearLayout = findViewById<LinearLayout>(R.id.container)
+        val linearLayout = findViewById<LinearLayout>(R.id.container)
         inputEditText = findViewById(R.id.inputEditText)
         val backButton = findViewById<ImageView>(R.id.back_button)
         val clearButton = findViewById<ImageView>(R.id.clearIcon)
