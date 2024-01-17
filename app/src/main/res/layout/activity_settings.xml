@@ -24,7 +24,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/button_settings"
-            android:textColor="@color/text"
             android:textSize="22sp"
             android:layout_marginStart="@dimen/text_margin"
             android:layout_marginTop="12dp"

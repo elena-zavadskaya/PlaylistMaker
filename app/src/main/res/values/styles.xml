@@ -17,7 +17,6 @@
     </style>
     <style name="settingsText">
         <item name="android:theme">@style/Theme.PlaylistMaker.Settings</item>
-        <item name="android:textColor">@color/text</item>
         <item name="android:paddingVertical">@dimen/settings_paddingVertical</item>
         <item name="android:textSize">@dimen/textSize</item>
         <item name="android:layout_marginStart">@dimen/text_margin</item>
